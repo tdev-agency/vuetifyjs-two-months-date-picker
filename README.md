@@ -35,11 +35,10 @@ Vue.use(VTwoMonthRangePicker);
 ```vue
 
 <script>
-import Datepicker from '@vuepic/vue-datepicker';
-import '@vuepic/vue-datepicker/dist/main.css';
+import VTwoMonthRangePicker from 'vuetifyjs-two-months-date-picker';
 
 export default {
-    components: {Datepicker}
+    components: {VTwoMonthRangePicker}
 }
 </script>
 ```
