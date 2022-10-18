@@ -1,0 +1,31 @@
+{
+    "name": "vuetifyjs-two-months-date-picker",
+    "version": "0.0.1",
+    "main": "src/index.js",
+    "author": "TDev Agency<contact@tdev.agency>",
+    "license": "MIT",
+    "scripts": {
+        "lint": "eslint src",
+        "lint:fix": "eslint --fix src --ext .js --ext .vue"
+    },
+    "alias": {
+        "vuetifyjs-two-months-date-picker": "./src/index.js"
+    },
+    "dependencies": {
+        "moment": "^2.29",
+        "sprintf-js": "^1.1.2",
+        "vue": "^2",
+        "vuetify": "^2.6"
+    },
+    "devDependencies": {
+        "@babel/eslint-parser": "^7.19.1",
+        "@vue/babel-preset-app": "^5.0.8",
+        "@vue/cli-plugin-babel": "^3.0.0",
+        "@vue/cli-service": "^3.0.0",
+        "eslint": "^8.25.0",
+        "eslint-plugin-vue": "^9.6.0",
+        "node-sass": "^4.9.3",
+        "sass-loader": "^7.1.0",
+        "vue-template-compiler": "^2.5.17"
+    }
+}
