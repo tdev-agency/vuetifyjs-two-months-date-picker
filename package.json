@@ -1,6 +1,6 @@
 {
     "name": "vuetifyjs-two-months-date-picker",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "src/index.js",
     "author": "TDev Agency<contact@tdev.agency>",
     "license": "MIT",
@@ -8,6 +8,23 @@
         "lint": "eslint src",
         "lint:fix": "eslint --fix src --ext .js --ext .vue"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tdev-agency/vuetifyjs-two-months-date-picker.git"
+    },
+    "keywords": [
+        "vue",
+        "vuetify",
+        "datepicker"
+    ],
+    "bugs": {
+        "url": "https://github.com/tdev-agency/vuetifyjs-two-months-date-picker/issues"
+    },
+    "homepage": "https://github.com/tdev-agency/vuetifyjs-two-months-date-picker#readme",
+    "peerDependencies": {
+        "vue": "^2.5.0"
+    },
+    "description": "Component allow to show 2 months for Vuetify 2 data picker range",
     "alias": {
         "vuetifyjs-two-months-date-picker": "./src/index.js"
     },
