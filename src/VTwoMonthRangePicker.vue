@@ -17,6 +17,7 @@
                 :label="label"
                 :hide-details="hideDetails"
                 :prepend-icon="prependIcon"
+                :dense="dense"
                 :prepend-inner-icon="prependInnerIcon"
                 v-bind="attrs"
                 readonly
@@ -172,6 +173,10 @@ export default {
         clearable: {
             type: Boolean,
             default: true
+        },
+        dense: {
+            type: Boolean,
+            default: false
         },
         prependIcon: {
             type: String,

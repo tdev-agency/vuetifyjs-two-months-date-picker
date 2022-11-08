@@ -1,6 +1,6 @@
 {
     "name": "vuetifyjs-two-months-date-picker",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "main": "src/index.js",
     "author": "TDev Agency<contact@tdev.agency>",
     "license": "MIT",
